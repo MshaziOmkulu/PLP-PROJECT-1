@@ -1,0 +1,460 @@
+/* For all Pages */
+h1{
+text-align: center;
+color :black;
+background-color : grey;
+
+}
+/*For all Pages */
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: grey;
+
+}
+/* For all Pages */
+p{
+    color : black;
+    background-color : grey;
+}
+/*For all Pages  */
+header {
+    background-color:grey;
+    color: black;
+    text-align: center;
+    padding: 10px;
+  }
+  /*For all Pages  */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  /*For all Pages  */
+  body.contact {
+    min-height: 100vh;
+    background: grey no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*Contact Us Page  */
+  .contact-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*Contact Us Page  */
+  .contat-info {
+    color: black;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 18px;
+  }
+  /* Contact Us Page */
+  .contact-info i{
+    margin-right: 100px;
+    font-size: 30px;
+  }
+  /* Contact Us Page */
+  .contact-form{
+    max-width: 1000px ;
+    margin-right:50px;
+  }
+  /* Contact Us Page */
+  .contact-info, .contact-form{
+    flex: 1;
+  }
+  /* Contact Us Page */
+  .contact-form h1{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  /* Contact Us Page */
+  .contact-form .text-box{
+    background: #000;
+    color: #fff;
+    border: none;
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 50px;
+    box-shadow: 0 1 px 1 px rgba(0,0,0,0,1);
+    margin-bottom: 15px;
+    opacity: 0.9;
+  }
+  /* Contact Us Page */
+  .contact-form .text-box:first-child{
+    margin-right: 15px;
+
+  }
+  /*Contact Us Page  */
+  .contact-form textarea{
+    background: #000;
+    color:#fff;
+    border: none;
+    width: 100%;
+    padding:12px ;
+    font-size:15px ;
+    min-height: 200px ;
+    max-height:400px ;
+    resize:vertical ;
+    border-radius:5px ;
+    box-shadow:0 1px 1px rgba(0,0,0,0,1) ;
+    margin: 10px ;
+    opacity:0.9 ;
+  }
+   /* Contact Us Page */
+  .contact-form .send-btn{
+    float: right;
+    background: #2E94E3;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 20px;
+    font-size: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition-property:background;
+  }
+   /* Contact Us Page */
+  .contact-form .send-btn{
+    background-image: #0582e3;
+  }
+  @media screen and(max-width: 950px) {
+    .contact-section{
+      flex-direction: column;
+    }
+    .contact-info, .contact-form{
+      margin: 30px 50px;
+    } 
+    .contact-form h1{
+      font-size: 30px;
+    }
+    .contact-form .text-box{
+      width: 100%;
+    }
+  }
+  /*css for alert messages*/
+
+  .alert-success{
+    z-index: 1;
+    background: #d4edda;
+    font-size: 18x;
+    padding: 20px 40px;
+    min-width: 420px;
+    position: fixed;
+    right: 0;
+    top: 10px;
+    border-left: 8px solid #3ad66e;
+    border-radius: 4px;
+  }
+  .alert-error{
+    z-index: 1;
+    background: #fff3cd;
+    font-size: 18x;
+    padding: 20px 40px;
+    min-width: 420px;
+    position: fixed;
+    right: 0;
+    top: 10px;
+    border-left: 8px solid #FFA502;
+    border-radius: 4px;
+  }
+  /* Styles for screens up to 320px */
+  @media (max-width: 320px) {
+    
+
+    body {
+      font-size: 14px; 
+    }
+
+    .text-box,
+    textarea {
+      padding: 5px;
+    }
+
+    .text-box,
+    textarea {
+      display: block; 
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+   /* Subscribe page */
+  table{
+    width: 600px;
+    margin: 100px auto 0 auto 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px #30475e, 0 4px 8px 0 #30475e;
+    color: white;
+    box-sizing: border-box;
+  }
+   /*Subscribe page  */
+  form{
+    width: 600px;
+    margin: 100px auto 0 auto 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px #30475e, 0 4px 8px 0 #30475e;
+    color:white;
+  }
+  .box1{
+    width :100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 10px 0 ;
+    background-color: #30475e;
+  }
+  .box3{
+    width :100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 10px 0 ;
+    background-color: #30475e;
+  }
+  .box4{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px 0 15px 0 ;
+    background-color: #30475e;
+
+  }
+  .div1{
+    display : inline-block;
+  }
+  .box2{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px 0 15px 0 ;
+    background-color: #30475e;
+  }
+   /*Donate Today page  */
+  .btn{
+    width: 49%;
+padding: 10px;
+border: none;
+border-radius: 15px;
+background-color: #30475e;
+font-size: 18px;
+color: white;
+  }
+  .container{
+    width: 50%;
+    margin: 50px auto;
+  }
+  .container p{
+    margin-bottom: 10px;
+  }
+
+  .contact-box{
+    background: white;
+    display: flex;
+  }
+  .contact-left{
+  flex-basis: 60%;
+  padding: 40px 60px ;
+  }
+  .contact-right{
+    flex-basis: 40%;
+  padding: 40px ;
+  background: #30475e;
+  color: white;
+  }
+
+  @media screen and (max-width: 600px){
+    body{
+        padding: 20px 
+    }
+    form{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .div1{
+        display: block;
+    }
+    .box2{
+        width: 100%;
+        box-sizing: border-box;
+    }
+  }
+  
+button {
+    color: black;
+    background-color: grey;
+    padding: 5px 5px;
+    text-decoration:none ;
+    border-radius: 5px;
+  }
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" sans-serif;
+ }
+ footer{
+    background-color:#111 ;
+ }
+ .footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+ }
+ /*Homepage social icons  */
+ socialIcons{
+    display: flex ;
+    justify-content: center;
+ }
+ .socialIcons{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white; 
+    margin: 10px;
+    border-radius:50%;
+ }
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+
+}
+/*hover Effect on Social Media Icons */
+.socialIcons a :hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a :hover i{
+    color: white;
+    transition: 0.5s;
+}
+/* homepage footer nav */
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display :flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.fotterBottom{
+    background-color: #000;
+    padding:20px;
+    text-align: center;
+}
+.fotterBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1 px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media(max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+/* Style the buttons */
+button {
+  background-color:grey ;
+  color:white ;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px; 
+  cursor: pointer;
+}
+/* Remove the default underline from anchor tags */
+button a {
+  text-decoration: none;
+  color: inherit;
+}
+/* Change button style on hover */
+button:hover {
+  background-color: grey;
+}
+/* Apply styles to the header element */
+header {
+  background-color: #333; 
+  color: #fff;
+  text-align: center; 
+  padding: 10px; 
+}
+/* Style the navigation menu */
+nav ul {
+  list-style: none;
+  padding: 0; 
+}
+/* Style the list items in the navigation menu */
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+/* Style the buttons inside the navigation menu */
+nav ul li button {
+  background-color: #0074d9; 
+  color: #fff; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer;
+}
+/* Style the anchor links inside the buttons */
+nav ul li button a {
+  text-decoration: none; 
+  color: #fff; 
+}
+/* Hover effect for buttons */
+nav ul li button:hover {
+  background-color: #0056b3; 
+}
+/* Add more specific styles for individual links if needed */
+nav ul li button a[href="home.html"] {
+  background-color: #0074d9;
+}
+nav ul li button a[href="about_us.html"] {
+  background-color: #e74c3c; 
+}
+nav ul li button a[href="contact_us.html"] {
+  background-color: #27ae60; 
+}
+nav ul li button a[href="subscribe.html"] {
+  background-color: #f39c12; 
+}
+
+nav ul li button a[href="Faq.html"] {
+  background-color: #9b59b6; 
+}
